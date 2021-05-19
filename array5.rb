@@ -1,3 +1,3 @@
-array1 =  [ 2, 5, 3, 1, 6, 8, 9 ]
-array2 = [ 4, 2, 7, 6, 10 ]
-p array1.intersection(array2)
+a =  [ 2, 5, 3, 1, 6, 8, 9 ]
+b = [ 4, 2, 7, 6, 10 ]
+p p ((a+b)-(a-b)-(b-a)).uniq
