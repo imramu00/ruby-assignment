@@ -1,10 +1,7 @@
 puts "Enter a string"
-input=gets.chomp
-a=input.split()
-b=[]
-for i in a 
-    if i==i.reverse
-        b << i 
-    end
-end
-puts b.sort{|a,b| b.length <=> a.length}[0]
+input = "mom and dad enjoyed the rotor ride"
+arr = input.split
+arr.select! { |ele| ele.reverse == ele }
+p arr.sort_by { |ele|
+	ele.length
+}.reverse[0]
