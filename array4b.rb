@@ -13,5 +13,3 @@ b.each do |i|
   a[a.key(i)]=999
 end
 p c
-    
-
