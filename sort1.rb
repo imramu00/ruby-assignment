@@ -1,6 +1,4 @@
 def area(array)
-	a=[]
-	b=[]
   array.sort_by! { |block|
     block[0]*block[1]
     -(block[0]*block[1])

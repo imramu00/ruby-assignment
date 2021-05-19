@@ -1,5 +1,5 @@
 def print_max(array)
-	a = array.max_by { |i| array.count(i) }
+  a = array.max_by { |i| array.count(i) }
   puts ("Number #{a} repeats #{array.count(a)} times")
 end
 
