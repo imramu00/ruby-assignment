@@ -1,4 +1,4 @@
-class Arr
+class Array
   attr_accessor :array
 
   def initialise(array)
@@ -21,5 +21,5 @@ class Arr
 end
 
 array = [9, 20, 16, 6, 5, 9, 21, 8, 14, 5, 12, 21, 9]
-a = Arr.new.diff(array)
+a = Array.new.diff(array)
 puts "Two numbers with biggest difference are #{a[0]} and #{a[1]}. Their difference is #{a[2]}."

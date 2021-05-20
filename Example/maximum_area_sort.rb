@@ -1,4 +1,4 @@
-class Sor
+class Sort
   attr_accessor :array
 
   def initialise(array)
@@ -11,4 +11,4 @@ class Sor
 end
 
 array = [{:width=>3,:height=>2},{:width=>1,:height=>1},{:width=>1,:height=>2}]
-p Sor.new.sort_area(array)
+p Sort.new.sort_area(array)

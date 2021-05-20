@@ -1,4 +1,4 @@
-class Arr
+class Array
   attr_accessor :array1, :array2
 
   def initialise(array1,array2)
@@ -14,4 +14,4 @@ end
 
 a =  [2, 5, 3, 1, 6, 8, 9]
 b = [4, 2, 7, 6, 10]
-p Arr.new.common_ele(a,b)
+p Array.new.common_ele(a,b)

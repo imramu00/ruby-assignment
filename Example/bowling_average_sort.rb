@@ -1,4 +1,4 @@
-class Sor
+class Sort
   attr_accessor :array
 
   def initialise(array)
@@ -18,4 +18,4 @@ class Sor
 end
 
 array = [ [ 'Ajay', 10000, 400 ], [' Vijay', 6000, 300 ], [ 'Ram' , 7000, 200 ], [ 'Shyam', 7700, 350 ] ]
-Sor.new.print_sort(array)
+Sort.new.print_sort(array)

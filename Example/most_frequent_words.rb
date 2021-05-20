@@ -1,4 +1,4 @@
-class Str
+class String
   attr_accessor :inp
 
   def initialise(inp)
@@ -21,4 +21,4 @@ class Str
 end
 
 input = "this is a cat. this is rat. that is a dog."
-p Str.new.inp_sort(input)
+p String.new.inp_sort(input)

@@ -1,4 +1,4 @@
-class Arr
+class Array
   attr_accessor :array, :point
 
   def initialise(array,point)
@@ -25,4 +25,4 @@ end
 
 array = [3, 5, 2, 8, 23, 4, 7, 12]
 point = 5
-p Arr.new.nearest_sort(array,point)
+p Array.new.nearest_sort(array,point)

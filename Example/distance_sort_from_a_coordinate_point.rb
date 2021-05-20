@@ -1,4 +1,4 @@
-class Arr
+class Array
   attr_accessor :array, :point
 
   def initialise(array,point)
@@ -15,4 +15,4 @@ end
 
 coordinates_array = [[2,1],[2, 2],[3,2],[1,3]]
 point = [2,2]
-p Arr.new.array_sort(coordinates_array,point)
+p Array.new.array_sort(coordinates_array,point)

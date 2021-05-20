@@ -1,6 +1,6 @@
 require 'date'
 
-class Sor
+class Sort
   attr_accessor :array
 
   def initialise(array)
@@ -15,4 +15,4 @@ class Sor
 end
 
 array = [ '08-07-2016', '07-10-2017','06-09-2016' ]
-p Sor.new.sort_date(array)
+p Sort.new.sort_date(array)

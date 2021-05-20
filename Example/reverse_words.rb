@@ -1,4 +1,4 @@
-class Str
+class String
   attr_accessor :inp
 
   def initialise(inp)
@@ -12,4 +12,4 @@ end
 
 puts "Enter a String"
 input = gets.chomp
-puts Str.new.reverse(input)
+puts String.new.reverse(input)

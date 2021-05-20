@@ -1,4 +1,4 @@
-class Arr
+class Array
   attr_accessor :array
 
   def initialise(array)
@@ -16,4 +16,4 @@ class Arr
 end
 
 array=[9, 5, 8, 6, 5, 4, 27, 6, 32, 5, 2, 11, 27, 1]
-puts Arr.new.find_count(array)
+puts Array.new.find_count(array)

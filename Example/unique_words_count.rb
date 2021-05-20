@@ -1,4 +1,4 @@
-class Arr
+class Array
   attr_accessor :inp
 
   def initialise(inp)
@@ -12,4 +12,4 @@ end
 
 puts "Enter a string"
 input = "This is a cat This cat is big I like cat"
-puts Arr.new.count_unique(input)
+puts Array.new.count_unique(input)

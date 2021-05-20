@@ -1,4 +1,4 @@
-class Str
+class Strin
   attr_accessor :inp
 
   def initialise(inp)
@@ -18,4 +18,4 @@ class Str
 end
 
 input = "mom and dad enjoyed the rotor ride"
-p Str.new.palindrome_sort(input)
+p Strin.new.palindrome_sort(input)
