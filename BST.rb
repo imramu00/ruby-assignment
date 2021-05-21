@@ -148,7 +148,7 @@ class Bst
         root.right = delete_node(root.data, root.right)
       end
     end
- end
+  end
 
   def size()
     puts @size
