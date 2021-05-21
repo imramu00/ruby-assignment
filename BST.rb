@@ -2,9 +2,9 @@ class Node
   attr_accessor :value, :left, :right
 
   def initialize(value)
-      @value = value
-      @left = nil
-      @right = nil
+    @value = value
+    @left = nil
+    @right = nil
   end
 end
 
@@ -12,8 +12,8 @@ class Bst
   attr_accessor :root, :size
 
   def initialize()
-      @root = nil
-      @size = 0;
+    @root = nil
+    @size = 0;
   end
 
   def insert(value)
